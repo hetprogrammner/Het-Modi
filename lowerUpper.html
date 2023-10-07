@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>23CEJ070 - Practical-3(c) - Uppercase,Lowercase</title>
     <script>
-        let s1 = prompt("Enter String: ");
-        let s2 = "";
-        function toogleString(s){
-            for (let i of s) {
+        let str1 = prompt("Enter String: ");
+        let str2 = "";
+        function toogleString(str){
+            for (let i of str) {
                 if (i==i.toLowerCase()) {
                     s2+=i.toUpperCase();
                 } else {
@@ -16,12 +14,12 @@
                     
                 }
             }
-            document.write(s2);
+            document.write(str2);
         }
-        toogleString(s1);
+        toogleString(str1);
     </script>
 </head>
 <body>
-    
+    <div></div>
 </body>
 </html>
